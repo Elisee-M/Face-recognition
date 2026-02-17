@@ -4,3 +4,12 @@ __pycache__/
 *.pyo
 *.pyd
 .env
+# Ignore all images
+faces/*
+test_images/*
+draw_faces/*
+
+# Keep folders empty in Git (by adding a placeholder)
+!faces/.gitkeep
+!test_images/.gitkeep
+!draw_faces/.gitkeep
